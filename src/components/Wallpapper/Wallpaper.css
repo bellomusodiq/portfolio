@@ -1,0 +1,7 @@
+.Wallpaper {
+    width: 100%;
+    box-sizing: border-box;
+}
+.Wallpaper > img {
+    width: 100%;
+}
