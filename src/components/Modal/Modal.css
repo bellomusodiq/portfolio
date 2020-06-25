@@ -1,0 +1,20 @@
+.Modal {
+    background: rgb(0,0,0,.75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+}
+.Modal > img {
+    width: 75%;
+}
+@media screen and (max-width: 780px) {
+    .Modal > img {
+        width: 90%;
+    }
+}

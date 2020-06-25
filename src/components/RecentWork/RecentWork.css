@@ -1,0 +1,43 @@
+.RecentWork {
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+.RecentWork > h2 {
+    text-align: center;
+}
+.Works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+.Work {
+    width: 32%;
+    margin: 5px;
+    box-sizing: border-box;
+}
+.Work > img {
+    width: 100%;
+    height: 220px;
+    cursor: pointer;
+}
+.Work > img:hover {
+    opacity: .5;
+    background: black;
+}
+@media screen and (max-width: 780px) {
+    .Work {
+        width: 45%;
+    }
+    .Work > img {
+        height: 180px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .Work {
+        width: 90%;
+    }
+    .Work > div {
+        overflow-wrap: break-word;
+    }
+}

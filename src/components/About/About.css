@@ -1,0 +1,46 @@
+.About {
+    width: 70%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #f1f1f1;
+    border-radius: 20px;
+    box-shadow: 1px 3px 1px rgb(158, 158, 158);
+    margin: auto;
+    margin-top: -100px;
+    z-index: 20;
+    position: relative;
+    color: #010101;
+}
+.About > div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.About > p {
+    font-size: 1.2em;
+    margin: 0;
+}
+.About > div > div {
+    width: 33%;
+    text-align: left;
+}
+a {
+    text-decoration: none;
+    color: #0277bd;
+}
+@media screen and (max-width: 780px) {
+    .About {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .About {
+        width: 95%;
+    }
+    .About > div {
+        flex-direction: column;
+    }
+    .About > div > div {
+        width: 100%;
+    }
+}

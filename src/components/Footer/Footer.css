@@ -1,0 +1,10 @@
+.Footer {
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: -2px -3px 4px lightgray;
+    display: flex;
+    flex-direction: column;
+}
+i {
+    font-size: 2em;
+}

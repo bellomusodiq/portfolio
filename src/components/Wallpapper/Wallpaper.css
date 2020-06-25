@@ -1,7 +1,48 @@
 .Wallpaper {
     width: 100%;
     box-sizing: border-box;
+    height: 610px;
+    /* background: black; */
+    background-position: center;
+    background-size: cover;
 }
 .Wallpaper > img {
     width: 100%;
+}
+.Wallpaper > div {
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: .65;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.WallpaperText {
+    font-size: 3em;
+    font-family: 'Roboto Mono', monospace;
+    position: relative;
+    text-justify: inter-ideograph;
+    margin: 0;
+}
+@media screen and (max-width: 780px) {
+    .Wallpaper {
+        height: 457px;
+    }
+    .WallpaperText {
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 500px) {
+    .Wallpaper {
+        height: 400px;
+    }
+    .WallpaperText {
+        font-size: 1em;
+    }
 }

@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://bello-mayowa.herokuapp.com';

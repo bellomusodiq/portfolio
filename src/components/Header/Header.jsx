@@ -1,10 +1,11 @@
 import React from 'react';
 import './Header.css';
+import Logo from '../../assets/images/logo.png';
 
 
 const Header = () => (
     <div className="Header">
-        <div className="Logo"></div>
+        <img src={Logo} alt="" className="Logo"/>
         <div className="" style={{ marginLeft: 20, overflow: 'hidden',
                 display: 'flex', justifyContent: 'center',
                 flex: 1,
