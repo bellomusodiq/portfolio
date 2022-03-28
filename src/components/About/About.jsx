@@ -14,7 +14,7 @@ const About = (props) => {
     }
     return (
         <div className="About">
-            <p>I have over 3 years of experience in full stack web development and also I have experience in Data Science and Machine Learning.</p>
+            <p>I have over 4 years of experience in full stack web development and also I have experience in Data Science and Machine Learning.</p>
             <p>I have worked as a freelancer, full-time remote software developer for agencies and full-time software developer.</p>
             <p>I also have collaborated with great minds to develop scalable and robost web application</p>
             <p></p>
